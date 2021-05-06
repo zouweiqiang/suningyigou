@@ -1,0 +1,203 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 24.66px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  width: 15rem;
+  line-height: 1.5;
+  font-family: Arial,Helvetica;
+  background: #F2F2F2;
+}
+
+/* <!-- 顶部搜索框 --> */
+.search-content {
+  display: flex;
+  width: 15rem;
+  height: 1.76rem;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  background-color: #ffdb47;
+}
+.classify{
+  width: 0.88rem;
+  height: 1.4rem;
+  margin: 0.22rem 0.5rem 0.14rem 0.48rem;
+  background: url(../images/classification.png) no-repeat;
+  background-size: 0.88rem 1.4rem;
+}
+.search{
+  flex: 1;
+}
+.search form input{
+  outline: none;
+  width: 100%;
+  border: 0;
+  height: 1.32rem;
+  border-radius: 0.66rem;
+  background-color: #fff;
+  margin-top: 0.24rem;
+  font-size: 0.5rem;
+  padding-left: 1.1rem;
+  color: #c8c8c8;
+}
+.login{
+  width: 1.5rem;
+  height: 1.4rem;
+  margin: 0.2rem;
+  line-height: 1.4rem;
+  font-size: 0.5rem;
+  text-align: center;
+  color: #fff;
+}
+/* <!-- banner部分 --> */
+
+.banner{
+  width: 15rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.banner img{
+  width: 100%;
+  height: 100%;
+}
+
+/* <!-- 广告部分 --> */
+.ad{
+  display: flex;
+  margin-top: 0.3rem;
+}
+.ad a{
+  flex: 1;
+}
+.ad a img {
+  width: 100%;
+}
+
+/* <!-- nav模块 --> */
+nav {
+  width: 15rem;
+}
+nav a {
+  float: left;
+  width: 3rem;
+  height: 2.8rem;
+  text-align: center;
+}
+nav a img {
+  display: block;
+  width: 1.68rem;
+  height: 1.68rem;
+  margin: 0.2rem auto -0.3rem;
+}
+nav a span {
+  font-size: 0.5rem;
+  color: #666666;
+}
+
+ /* newImgFloor部分 */
+.newImgFloor-content{
+  background-color: #f7f7f7;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 4.68rem;
+  margin-top: 7rem;
+}
+.newImgFloor-content a{
+  flex: 1;
+}
+.newImgFloor-content a:nth-child(1){
+  flex: 25%;
+  border-right: 0.06rem solid #f7f7f7;
+}
+.newImgFloor-content a:nth-child(2){
+  border-right: 0.06rem solid #f7f7f7;
+}
+.newImgFloor-content a img{
+  width: 100%;
+  height: 5rem;
+}
+
+/* <!-- 底部分栏 --> */
+.v7-tab {
+  display: flex;
+  width: 15rem;
+  height: 1.76rem;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  background-color: #fff;
+}
+.v7-tab a{
+  flex: 1;
+  font-size: 0.5rem;
+}
+.v7-tab img {
+  display: block;
+  width: .96rem;
+  height: .96rem;
+  margin: .24rem auto 0;
+}
+.v7-tab span {
+  display: block;
+  font-size: 0.4rem;
+  line-height: .64rem;
+  color: #666;
+  text-align: center;
+}
